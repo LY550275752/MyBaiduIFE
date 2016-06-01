@@ -13,16 +13,16 @@ a{text-decoration:none;color:#656565;}
 
 /*头部*/
 .header{
-	height:450px;
+	height:550px;
 	position:relative;
 }
 .bg-pic{
 	width:1263px;
-	height:450px;
+	height:550px;
 }
 .bg-pic img{
 	width:1263px;
-	height:450px;
+	height:550px;
 }
 .header-info{
 	width:600px;
