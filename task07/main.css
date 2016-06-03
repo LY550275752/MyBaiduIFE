@@ -42,6 +42,25 @@ body{
 	height:3px;
 	margin:0 auto;
 }
+.picBox{
+	float:left;
+	position:relative;
+}
+.jiantou{
+	width:49px;
+	height:31px;
+	background:url(img/jiantou.png) no-repeat;
+	position:absolute;
+}
+.new-more{
+	display:block;
+	font-size:21px;
+	width:170px;
+	margin:26px auto 10px;
+	line-height:44px;
+}
+
+
 /*top*/
 .logo{
 	background:url(img/logosm.png) no-repeat left center;
@@ -232,8 +251,269 @@ body{
 	height:605px;
 	background-color:#F8F7F7;
 }
+.act-content{
+	padding-top:100px;
+	margin:0 auto;
+	width:1024px;
+}
+.act-content li{
+	float:left;
+	margin:0 18px;
+	text-align:center;
+}
+.img-box{
+	padding:11px 7px;
+	background-color:#FFF;
+	border:1px solid #E1E1E1;
+}
+.act-content h4{
+	font-size:20px;
+	line-height:35px;
+}
+.act-content p{
+	color:#9F9F9F;
+	line-height:26px;
+}
 
+/*news*/
+.new-pic{
+	width:850px;
+	height:566px;
+	background:url(img/baner02.jpg) no-repeat;
+	cursor:pointer;
+	text-align:center;
+	color:#FFF;
+}
+.new-pic p:nth-child(1){
+	margin-top:128px;
+	font-size:50px;
+}
+.new-pic h2{
+	font-size:158px;
+}
+.new-pic pnth-child(2){
+	font-size:22px;
+}
+.new-pic .jiantou{
+	top:268px;
+	right:-26px;
+}
+.new-content{
+	width:430px;
+}
+.new-content h2{
+	font-weight:normal;
+	width:105px;
+	font-size:22px;
+	margin:165px auto 0;
+}
+.new-content span{
+	color:#E7504D;
+}
+.new-content p{
+	font-family:"宋体";
+	width:292px;
+	margin:28px auto;
+	color:#AAAAA9;
+	line-height:31px;
+}
+.new-content a{
+	text-align:center;
+	color:#E74F4D;
+	border:1px solid #E74F4D;
+}
+.more{
+	width:78px;
+	margin:0 auto;
+}
+.more li{
+	width:13px;
+	height:13px;
+	border:1px solid #979797;
+	float:left;
+	margin:5px;
+	border-radius:50%;
+	-webkit-border-radius:50%;
+	-moz-border-radius:50%;
+	cursor:pointer;
+}
+.more .active{
+	background-color:#979797;
+}
+/*about*/
+.about-content{
+	padding-top:168px;
+	width:425px;
+	float:left;
+	height:353px;
+	text-align:center;
+}
+.about-content h4{
+	line-height:26px;
+}
+#about1 a{
+	color:#FFF;
+	border:1px solid #FFF;
+}
+#about2 a{
+	color:#E74F4D;
+	border:1px solid #E74F4D;
+}
+#about1{
+	color:#FFF;
+	background-color:#E74F4D;
+}
+#about1 span{
+	background-color:#FFF;
+	margin-top:20px;
+}
+#about2{
+	color:#000;
+}
+#about2 span{
+	background-color:#ABABAB;
+	margin-top:20px;
+}
+.about-pic{
+	width:430px;
+}
+.about-pic .jiantou{
+	top:244px;
+	left:-26px;
+}
 
+/******footer******/
+
+/*join*/
+.join{
+	width:1000px;
+	margin:0 auto;
+}
+.join-word{
+	height:165px;
+	padding-top:80px;
+}
+.join-word h4{
+	color:#323232;
+}
+.join-word span{
+	background-color:#EA6563;
+	margin-top:10px;
+}
+.join-word p{
+	width:424px;
+	margin:12px auto;
+	color:#AAAAA9;
+	text-align:center;
+	line-height:18px;
+}
+
+/*join-list*/
+.join-list{
+	height:390px;
+}
+.join-text li{
+	width:290px;
+	margin-bottom:34px;
+}
+.join-text h4{
+	font-size:14px;
+	color:#221814;
+}
+.join-text p{
+	margin-top:20px;
+	color:#767677;
+	font-family:"宋体";
+	font-size:12px;
+	line-height:22px;
+}
+.text-more{
+	display:block;
+	float:right;
+	padding-left:15px;
+	background:url(img/xia.png) no-repeat left center;
+}
+/*join-form*/
+.join-form{
+	width:645px;
+}
+.input01{
+	width:270px;
+	padding:13px 15px;
+	margin-right:20px;
+	margin-bottom:16px;
+	color:#889894;
+	background-color:#EDECEE;
+}
+.input02{
+	width:595px;
+	height:105px;
+	padding:8px 15px;
+	background-color:#EDECEE;
+	margin-bottom:16px;
+}
+.input-btn{
+	width:625px;
+	height:41px;
+	color:#323232;
+	background-color:#EDECEE;
+	cursor:pointer;
+}
+/*contact*/
+.contact{	
+	background-color:#32363E;
+	text-align:center;
+	height:360px;
+}
+.contact-content{
+	padding-top:90px;
+	color:#FFF;
+	width:530px;
+	margin:0 auto;
+}
+.contact-content p{
+	width:470px;
+	margin:15px auto;
+	font-size:12px;
+	font-family:"宋体";
+	color:#d4d4d4;
+}
+.mail-submit{
+	margin-top:25px;
+	width:510px;
+}
+.mail-text{
+	width:420px;
+	height:30px;
+	padding:5px 5px;
+	color:#AAAAA9;
+	background-color:#FFF;
+}
+.mail-btn{
+	width:80px;
+	color:#FFF;
+	line-height:40px;
+	background-color:#707278;
+	cursor:pointer;
+}
+.contact-type{
+	padding-top:30px;
+}
+.contact-type img{
+	margin:0 12px;
+}
+.wrapright{
+	height:50px;
+	background-color:#2F3039;
+}
+.wrap-cont{
+	width:1000px;
+	margin:0 auto;
+}
+.wrap-cont{
+	padding-top:30px;
+	color:#FFF;
+}
 
 
 
