@@ -12,16 +12,21 @@ a{text-decoration:none;color:#656565;}
 .fr{float:right;}
 
 /*头部*/
+#back{
+	position:fixed;
+	bottom:30px;
+	left:10px;
+}
 .header{
 	position:relative;
 }
 .bg-pic{
 	width:1263px;
 	height:550px;
+	overflow:hidden;
 }
 .bg-pic img{
 	width:1263px;
-	height:550px;
 }
 .header-info{
 	width:600px;
@@ -40,7 +45,7 @@ a{text-decoration:none;color:#656565;}
 .hr-2{
 	height:4px;
 	width:150px;
-	background-color:#939393;
+	background-color:#B3B3B3;
 	margin:0 auto;
 }
 .header-info p{
@@ -57,50 +62,61 @@ a{text-decoration:none;color:#656565;}
 }
 .main-nav{
 	height:60px;
-	width:500px;
+	width:600px;
 	padding-top:35px;
 	margin:0 auto;
 	text-align:center;
 }
 .main-nav li{
 	float:left;
-	padding:5px 13px;
 	margin:0 10px;
+}
+.main-nav a{
+	display:block;
+	font-size:18px;
+	font-weight:bold;
+	padding:5px 13px;
 	border:1px solid #656565;
 	border-radius:13px;
 	-moz-border-radius:13px;
 	-webkit-border-radius:13px;
 }
-.main-nav a{
-	font-size:18px;
-	font-weight:bold;
-}
-.main-nav li:hover{
+.main-nav a:hover,.main-nav .ahover{
 	background:#000;
-}
-.main-nav a:hover{
 	color:#FFF;
 }
 /*artical*/
 
 .article{
-	margin:10px 20px;
+	margin:20px 15px;
 	width:460px;
 	height:470px;
+	padding:5px;
+	float:left;
 }
 .art-pic{
-	border-bottom:2px solid #CC0066;
-	height:260px;
-	margin-bottom:20px
+	margin-bottom:20px;
 }
+
+.huxi{
+	-webkit-transform: scale(1.03);
+	transform: scale(1.03);
+	box-shadow: 0px 0px 18px rgba(0,0,0,.5);
+	transition: all 0.5s ease-out; 		//chome使用
+	-moz-transition: all 0.5s ease-out;
+	-webkit-transition: all 0.5s ease-out;
+	-o-transition: all 0.5s ease-out;
+}
+
 .art-pic img{
 	width:460px;
 	height:260px;
+	border-bottom:2px solid #CC0066;
 }
 .text-left{
 	width:60px;
 	padding-right:10px;
-	height:190px;
+	height:187px;
 	border-right:2px solid #aaa;
 	float:left;
 	text-align:center;
@@ -118,7 +134,7 @@ a{text-decoration:none;color:#656565;}
 	width:40px;
 	padding-top:40px;
 	margin:10px auto;
-	background:url(aixin.png) no-repeat center 0px;
+	background:url(img/aixin.png) no-repeat center 0px;
 	color:#aaa;
 	font-size:22px;
 	font-weight:bold;
@@ -149,7 +165,7 @@ a{text-decoration:none;color:#656565;}
 }
 .more{
 	position:absolute;
-	bottom:0px;
+	bottom:3px;
 }
 .more a:hover{
 	color:#E10202;
