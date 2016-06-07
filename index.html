@@ -6,12 +6,14 @@
 </head>
 
 <body>
+<a href="#atop" id="back"><img src="img/backtop.gif" /></a>
 <div class="header">
-	<div class="bg-pic">
-		<img src="http://desk.fd.zol-img.com.cn/t_s1280x800c5/g5/M00/05/04/ChMkJlXsB1qISrApAASPOe4pYAoAACUugLk9e0ABI9R170.jpg" />
+	<a href="##" id="atop"></a>
+	<div class="bg-pic" id="myroad">
+		<img  src="http://desk.fd.zol-img.com.cn/t_s1280x800c5/g5/M00/05/04/ChMkJlXsB1qISrApAASPOe4pYAoAACUugLk9e0ABI9R170.jpg" />
 	</div>
 	<div class="header-info">
-		<h3 class="name">不只是个看客</h3>
+		<h3 class="name" id="name">不只是个看客</h3>
 		<div class="hr-2"></div>
 		<p>注意，这里不是个人介绍，我把这个当成我的百度前端学院任务的入口导航</p>
 	</div>
@@ -19,45 +21,81 @@
 <!--header结束-->
 <div class="wrap">
 	<div class="main">
-		<div class="main-nav">
+		<div class="main-nav" id="main-nav">
 			<ul class="clearfix">
-				<li><a href="#">All</a></li>
-				<li><a href="#">Movies</a></li>
-				<li><a href="#">Life</a></li>
-				<li><a href="#">Photo</a></li>
-				<li><a href="#">Others</a></li>
+				<li><a href="#" class="ahover">所有</a></li>
+				<li><a href="#name">第一部分</a></li>
+				<li><a href="#name">第二部分</a></li>
+				<li><a href="#name">第三部分</a></li>
+				<li><a href="#name">第四部分</a></li>
 			</ul>
 		</div>
 		<!--main-nav结束-->
 		<div class="main-content clearfix">
-			<div class="article fl">
-				<div class="art-pic"><a href="task01/index.html"><img src="task01/yan.jpg" alt="女神" /></a></div>
-				<div class="art-text clearfix">
-					<div class="text-left">
-						<div class="art-date"><p>FEB</p><p>08</p></div>
-						<div class="art-hot">145</div>
+			<div class="part">
+				<div class="article">
+					<div class="art-pic"><a href="task01/index.html"><img  src="task01/yan.jpg" alt="女神" /></a></div>
+					<div class="art-text clearfix">
+						<div class="text-left">
+							<div class="art-date"><p>FEB</p><p>08</p></div>
+							<div class="art-hot">145</div>
+						</div>
+						<div class="text-right">
+							<h3 class="art-title"><a href="task01/index.html">task01基础标签</a></h3>
+							<p class="art-info">李烨</p>
+							<p class="art-short">这个不知道怎么介绍</p>
+							<span class="more"><a href="#">read more&gt;&gt;</a></span>
+						</div>
 					</div>
-					<div class="text-right">
-						<h3 class="art-title"><a href="task01/index.html">task01基础标签</a></h3>
-						<p class="art-info">李烨</p>
-						<p class="art-short">这个不知道怎么介绍</p>
-						<span class="more"><a href="#">read more&gt;&gt;</a></span>
+				</div>			
+				<div class="article">
+					<div class="art-pic"><a href="task07/index.html"><img src="task07/img/baner.jpg" alt="新世界" /></a></div>
+					<div class="art-text clearfix">
+						<div class="text-left">
+							<div class="art-date"><p>FEB</p><p>08</p></div>
+							<div class="art-hot">145</div>
+						</div>
+						<div class="text-right">
+							<h3 class="art-title"><a href="task07/index.html">task07实现常见的技术产品官网</a></h3>
+							<p class="art-info">李烨</p>
+							<p class="art-short">1.通过实现一个常见的技术产品官网，加深对于HTML，CSS的实战能力<br/>
+							2.学习掌握如何在没有标注的情况下实现设计稿到页面的精确转变</p>
+							<span class="more"><a href="#">read more&gt;&gt;</a></span>
+						</div>
 					</div>
 				</div>
-			</div>			
-			<div class="article fl">
-				<div class="art-pic"><a href="task07/index.html"><img src="task07/img/baner.jpg" alt="新世界" /></a></div>
-				<div class="art-text clearfix">
-					<div class="text-left">
-						<div class="art-date"><p>FEB</p><p>08</p></div>
-						<div class="art-hot">145</div>
+			</div>
+			<div class="part">
+				<div class="article">
+					<div class="art-pic"><a href="task11/index.html"><img src="img/task11.jpg" alt="空气" /></a></div>
+					<div class="art-text clearfix">
+						<div class="text-left">
+							<div class="art-date"><p>6月</p><p>04</p></div>
+							<div class="art-hot">145</div>
+						</div>
+						<div class="text-right">
+							<h3 class="art-title"><a href="task07/index.html">task07实现常见的技术产品官网</a></h3>
+							<p class="art-info">李烨</p>
+							<p class="art-short">1.通过实现一个常见的技术产品官网，加深对于HTML，CSS的实战能力<br/>
+							2.学习掌握如何在没有标注的情况下实现设计稿到页面的精确转变</p>
+							<span class="more"><a href="#">read more&gt;&gt;</a></span>
+						</div>
 					</div>
-					<div class="text-right">
-						<h3 class="art-title"><a href="task07/index.html">task07实现常见的技术产品官网</a></h3>
-						<p class="art-info">李烨</p>
-						<p class="art-short">1.通过实现一个常见的技术产品官网，加深对于HTML，CSS的实战能力<br/>
-						2.学习掌握如何在没有标注的情况下实现设计稿到页面的精确转变</p>
-						<span class="more"><a href="#">read more&gt;&gt;</a></span>
+				</div>
+				<div class="article">
+					<div class="art-pic"><a href="task12/index.html"><img src="task07/img/baner.jpg" alt="新世界" /></a></div>
+					<div class="art-text clearfix">
+						<div class="text-left">
+							<div class="art-date"><p>FEB</p><p>08</p></div>
+							<div class="art-hot">145</div>
+						</div>
+						<div class="text-right">
+							<h3 class="art-title"><a href="task07/index.html">task07实现常见的技术产品官网</a></h3>
+							<p class="art-info">李烨</p>
+							<p class="art-short">1.通过实现一个常见的技术产品官网，加深对于HTML，CSS的实战能力<br/>
+							2.学习掌握如何在没有标注的情况下实现设计稿到页面的精确转变</p>
+							<span class="more"><a href="#">read more&gt;&gt;</a></span>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -67,5 +105,46 @@
 	<!--main结束-->
 </div>
 <!--wrap结束-->
+<script type="text/javascript" src="js/change.js"></script>
+<script type="text/javascript" src="http://libs.baidu.com/jquery/1.10.2/jquery.min.js"></script>
+<script type="text/javascript">
+	window.onload=function(){
+		//header伸缩
+		var opic=document.getElementById("myroad");
+		var oArt=getByClass("article");
+		window.onscroll=function(){
+			var scrollTop=document.body.scrollTop ||document.documentElement.scrollTop;
+			if(scrollTop>100){
+				startMove(opic,{height:350});
+			}else{
+				startMove(opic,{height:550});
+			}
+			
+		}
+		for(var i=0;i<oArt.length;i++){
+			oArt[i].onmouseover=function(){
+				this.className+=" huxi";
+			}
+			oArt[i].onmouseout=function(){
+				this.className="article"
+			}
+		}
+		
+		//显示不同part
+		var as=$('li>a'),
+			nav=$('#main-nav')
+			console.log(as);
+			as.each(function(){
+				as.index
+				var m=$(this);
+				m.click(function(){
+					var currentLink=nav.find(".ahover");
+					console.log(currentLink);
+					m.addClass("ahover");
+					currentLink.removeClass("ahover");
+				});
+			});
+	}
+</script>
 </body>
 </html>
